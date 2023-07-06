@@ -9,6 +9,15 @@ const Header = () => {
             <NavLink to="/" ></NavLink>
             <img className="logo" src={logo}  alt="logo" />
         </logo>
+        <home>
+            <NavLink to={"/homepage"}></NavLink>
+        </home>
+        <shop>
+            <NavLink to={"/shoppage"}></NavLink>
+        </shop>
+        <cart>
+            <NavLink to={"/cartpage"}></NavLink>
+        </cart>
     </div>
   )
 }

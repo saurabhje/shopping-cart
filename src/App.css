@@ -1,10 +1,10 @@
 .navbar{
     background-color: rgba(0, 0, 0, 0.606);
-    height: 25vh;
+    height: 20vh;
     width: 100vw;
 }
 .logo{
-    height: 100px;
+    height: 120px;
 }
 .footer-item{
     position: absolute;
