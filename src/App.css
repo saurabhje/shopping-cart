@@ -1,0 +1,21 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.606);
+    height: 25vh;
+    width: 100vw;
+}
+.logo{
+    height: 100px;
+}
+.footer-item{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.footer-item a {
+    display: flex;
+    margin-left: 0.2rem;
+    font-size: 1.3rem;
+}
