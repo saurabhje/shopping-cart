@@ -1,8 +1,8 @@
 const ShopPage = () =>{
     return (
-        <>
-            <p> Shop Page says Hii! </p>
-        </>
+        <div>
+            <div className="cards"></div>
+        </div>
     )
 }
 

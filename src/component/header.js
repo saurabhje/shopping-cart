@@ -6,20 +6,25 @@ const Header = () => {
   return (
     <div className='navbar'>
         <logo>
-            <NavLink to="/" ></NavLink>
-            <img className="logo" src={logo}  alt="logo" />
+            <NavLink to="/" >
+                <img className="logo" src={logo}  alt="logo" />
+            </NavLink>
         </logo>
-        <home>
-            <NavLink to={"/homepage"}></NavLink>
-        </home>
-        <shop>
-            <NavLink to={"/shoppage"}></NavLink>
-        </shop>
-        <cart>
-            <NavLink to={"/cartpage"}></NavLink>
-        </cart>
+        <div className='links'>
+            <home>
+                <NavLink to={"/"} style={{ textDecoration: 'none',color: 'white'}}> Home </NavLink>
+            </home>
+            <shop>
+                <NavLink to={"/shoppage"} style={{ textDecoration: 'none',color: 'white'}}> Shop</NavLink>
+            </shop>
+            <cart>
+                <NavLink to={"/cart"} style={{ textDecoration: 'none',color: 'white',}}>Cart
+                </NavLink>
+            </cart>
+        </div>
     </div>
   )
 }
+
 
 export default Header;
