@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./homepage.css";
-import blackimga from "../images/black.png";
+import blackimga from "../images/weirdimage.jpeg";
 
 const HomePage = () =>{
 
@@ -18,7 +18,6 @@ const HomePage = () =>{
                     ShopNow
                 </button>
            </hero>
-           <img src={blackimga} alt="black" />
         </div>
     )
 
