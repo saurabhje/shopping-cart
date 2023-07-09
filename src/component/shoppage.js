@@ -1,5 +1,5 @@
 import React from "react";
-import productCard from "./productCard";
+import Product from "./Product";
 import gpu from "../images/4070.jpg"
 import iphone from "../images/iphone.jpg";
 import moduleName from '../images/airpodes.jpg';
@@ -11,14 +11,14 @@ const ShopPage = () =>{
         <div>
             <div className="card-container">
                 <p> This is the shopPage</p>
-                <productCard  />
-                <productCard />
-                <productCard />
-                <productCard />
-                <productCard />
-                <productCard />
-                <productCard />
-                <productCard />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
             </div>
         </div>
     )
