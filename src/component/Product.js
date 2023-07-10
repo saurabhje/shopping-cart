@@ -1,11 +1,11 @@
-
+import "./Product.css"
 const Product = (props) => {
   return (
     <div className="productcard">
+        <h1 className='title'>{props.title}</h1>
         <img className="product-img" src={props.img} alt='product-image' />
-        <div className='title'>{props.title}</div>
         <p className='price'>{props.price}</p>
-        This is a productCard
+        <button className="button-4"> Add to Cart</button>
     </div>
   );
 }

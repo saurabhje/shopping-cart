@@ -7,6 +7,7 @@ import Header from "./header";
 
 function RouteSwitcher() {
   return (
+    <div className="content">
     <BrowserRouter>
       <Header />
       <Routes>
@@ -16,6 +17,7 @@ function RouteSwitcher() {
       </Routes>
       <Footer/>
     </BrowserRouter>
+    </div>
   );
 }
 

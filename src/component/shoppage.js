@@ -10,15 +10,14 @@ const ShopPage = () =>{
     return (
         <div>
             <div className="card-container">
-                <p> This is the shopPage</p>
-                <Product />
-                <Product />
-                <Product />
-                <Product />
-                <Product />
-                <Product />
-                <Product />
-                <Product />
+                <Product title="Mac" price="$1000" img={mac}  />
+                <Product title="Mac" price="$1000" img={mac}  />
+                <Product title="Mac" price="$1000" img={mac} />
+                <Product title="Mac" price="$1000" img={mac}  />
+                <Product title="Mac" price="$1000" img={mac} />
+                <Product title="Mac" price="$1000" img={mac} />
+                <Product title="Mac" price="$1000" img={mac} />
+                <Product title="Mac" price="$1000" img={mac} />
             </div>
         </div>
     )
