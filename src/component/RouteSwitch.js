@@ -15,7 +15,7 @@ function RouteSwitcher() {
         <Route path="/shoppage" element={<ShopPage />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </BrowserRouter>
     </div>
   );
