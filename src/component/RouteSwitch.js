@@ -1,5 +1,5 @@
 import React, { useState , useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./homepage";
 import ShopPage from "./shoppage";
 import Cart from "./cartpage";
@@ -58,7 +58,7 @@ function RouteSwitcher() {
 
   return (
     <div className="content">
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -71,7 +71,7 @@ function RouteSwitcher() {
             element={<Cart cart={cart} bill ={bill} decreaseCart={decreaseCart} increaseCart={increaseCart} itemCount={itemCount}/>}
           />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
