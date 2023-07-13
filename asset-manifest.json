@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.4d7dccb5.css",
+    "main.js": "/shopping-cart/static/js/main.f988a04c.js",
+    "static/media/ipad.jpg": "/shopping-cart/static/media/ipad.3cb283a16523b79421ee.jpg",
+    "static/media/titanium.jpg": "/shopping-cart/static/media/titanium.672f74c5e72a1377caa3.jpg",
+    "static/media/macbook.jpg": "/shopping-cart/static/media/macbook.58969d0c5c67e30dc056.jpg",
+    "static/media/4070.jpg": "/shopping-cart/static/media/4070.081dcdabc46185031997.jpg",
+    "static/media/iphone.jpg": "/shopping-cart/static/media/iphone.232a271ae230fe3e0c1e.jpg",
+    "static/media/airpodes.jpg": "/shopping-cart/static/media/airpodes.67ddfe7510e55a8bec09.jpg",
+    "static/media/logo.png": "/shopping-cart/static/media/logo.9a12e08678df3e861ac7.png",
+    "static/media/keyboard.jpg": "/shopping-cart/static/media/keyboard.7ea7cfc2def876fdfcd5.jpg",
+    "static/media/razor.jpg": "/shopping-cart/static/media/razor.23897ed3f65032df5a16.jpg",
+    "static/media/mac.jpg": "/shopping-cart/static/media/mac.a3607e0bd193d7045581.jpg",
+    "static/media/weirdimage.jpeg": "/shopping-cart/static/media/weirdimage.dadadd88c91b99f595e0.jpeg",
+    "index.html": "/shopping-cart/index.html",
+    "main.4d7dccb5.css.map": "/shopping-cart/static/css/main.4d7dccb5.css.map",
+    "main.f988a04c.js.map": "/shopping-cart/static/js/main.f988a04c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d7dccb5.css",
+    "static/js/main.f988a04c.js"
+  ]
+}
