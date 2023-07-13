@@ -1,13 +1,21 @@
-import "./Product.css"
-const Product = (props) => {
+import React from "react";
+import "./Product.css";
+
+const Product = ({ product, onCartAction }) => {
+  const handleCartAction = () => {
+    onCartAction(product);
+  };
+
   return (
-    <div className="productcard">
-        <h1 className='title'>{props.title}</h1>
-        <img className="product-img" src={props.img} alt='product-image' />
-        <p className='price'>{props.price}</p>
-        <button className="button-4"> Add to Cart</button>
+    <div className="product-card">
+      <h1 className="product-title">{product.title}</h1>
+      <img className="product-img" src={product.img} alt="product" />
+      <p className="product-price">${product.price}</p>
+      <button className="button-4" onClick={handleCartAction}>
+         Add to Cart
+      </button>
     </div>
   );
-}
+};
 
 export default Product;

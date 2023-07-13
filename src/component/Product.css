@@ -1,4 +1,4 @@
-.productcard{
+.product-card{
     height: 300px;
     width: 16%;
     flex-grow: 1;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.productcard img{
+.product-card img{
     height: 50%;
     width: auto;
 }
